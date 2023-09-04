@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  @apply flex;
+  max-width: 90%;
+  margin: 110px auto 20px;
+}
+
+.wrapper_post {
+  max-width: 70%;
+  @media (max-width: 1024px) {
+    max-width: 100%;
+  }
+}
+
+.post_description {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.7;
+  letter-spacing: 0.069rem;
+  margin: 1.5rem auto;
+  padding: 0 1.4rem;
+  text-align: justify;
+  @media (max-width: 1280px) {
+    padding: 0 1rem;
+    word-break: break-word;
+  }
+}

@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(244, 244, 244);
+  line-height: 1;
+  font-size: 100%;
+  font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (min-device-pixel-ratio: 1.5),
+  screen and (min-resolution: 1.5dppx) {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+details summary {
+  cursor: pointer;
+}
+
+img.next-image {
+  margin: 0;
+}
+
+.prose a {
+  color: #0074de;
+}
+
+.nav-line .nav-link {
+  color: #69778c;
+}
+
+#full-menu {
+  position: fixed;
+  top: 0;
+  display: flex;
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+#icon-menu {
+  display: none;
+  @media (max-width: 1024px) {
+    display: flex;
+  }
+}
+
+.grid__main {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+
+  @media (max-width: 1280px) {
+    justify-content: space-around;
+  }
+}
+
+.grid__main_social_media {
+  @media (max-width: 1280px) {
+    display: none;
+  }
+}
+
+.grid__main_card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 50%;
+  justify-items: center;
+
+  @media (max-width: 1280px) {
+    gap: 30px 0;
+    width: 100%;
+  }
+
+  @media (max-width: 1024px) {
+    gap: 30px 0;
+  }
+
+  @media (max-width: 980px) {
+    gap: 30px 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.grid__main_aside {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  min-width: 20%;
+  height: min-content;
+  @media (max-width: 780px) {
+    display: none;
+  }
+}

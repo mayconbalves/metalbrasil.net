@@ -1,0 +1,49 @@
+---
+type: posts
+title: Accept
+date: '2022-01-18'
+socialImage: 'images/bands/heavy-metal/accept.jpeg'
+---
+
+Accept é uma banda alemã de heavy metal formada em Solingen, Alemanha, em 1976.
+A formação original da banda incluía o vocalista Udo Dirkschneider, os guitarristas
+Wolf Hoffmann e Gerhard Wahl, o baixista Peter Baltes e o baterista Frank Friedrich.
+
+Nos primeiros anos, o Accept começou a tocar em clubes e festivais locais,
+desenvolvendo seu som característico que combinava riffs pesados, vocais poderosos
+e solos de guitarra marcantes. Em 1979, a banda lançou seu álbum de estreia,
+"Accept", que chamou a atenção do público do heavy metal. O álbum continha faixas
+como "Lady Lou" e "Seawinds" e ajudou a estabelecer a reputação do Accept como uma
+das principais bandas do gênero.
+
+Em 1981, o Accept lançou o álbum "Breaker", que trouxe mais sucesso e elogios.
+O álbum foi seguido por "Restless and Wild" (1982), que incluía a icônica faixa
+"Balls to the Wall". Essa música tornou-se um hino do heavy metal e ajudou a
+impulsionar a popularidade da banda em todo o mundo.
+
+No entanto, em 1987, Udo Dirkschneider decidiu deixar a banda para seguir carreira
+solo. O Accept recrutou David Reece como novo vocalista e lançou o álbum
+"Eat the Heat" (1989). Embora o álbum tenha recebido críticas mistas,
+a mudança de vocalista gerou controvérsias e a formação original se separou.
+
+Após um hiato, o Accept retornou em 1993 com uma nova formação, que incluía
+Udo Dirkschneider de volta aos vocais. A banda lançou o álbum
+"Objection Overruled" (1993) e continuou a gravar e fazer turnês.
+No entanto, em 1997, Dirkschneider saiu novamente e foi substituído por
+Mark Tornillo como vocalista.
+
+Com Mark Tornillo, o Accept lançou o álbum "Blood of the Nations" (2010),
+que recebeu elogios da crítica e foi considerado um retorno triunfal da banda.
+Os álbuns subsequentes, como "Stalingrad" (2012) e "The Rise of Chaos" (2017),
+também foram bem recebidos pelos fãs e mostraram que o Accept ainda tinha o
+poder de criar música de alta qualidade.
+
+Ao longo dos anos, o Accept se tornou uma influência significativa para várias bandas
+de heavy metal e continua a ser uma força ativa na cena do metal.
+Sua música cativante, performances enérgicas e dedicação ao gênero os tornaram uma
+das bandas alemãs de maior sucesso internacionalmente.
+
+O Accept deixou um legado duradouro no heavy metal e continua a emocionar
+fãs ao redor do mundo com sua mistura única de poder e melodia.
+Sua história mostra a resiliência e a paixão pela música que os mantêm relevantes
+até os dias de hoje.

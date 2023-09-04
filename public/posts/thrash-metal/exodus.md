@@ -1,0 +1,65 @@
+---
+type: posts
+title: Exodus
+date: '2022-01-18'
+socialImage: 'images/bands/thrash-metal/exodus.jpeg'
+---
+
+A banda Exodus é uma influente banda de thrash metal formada na Bay Area, Califórnia,
+Estados Unidos, em 1980. Assim como o Slayer, o Metallica e outras bandas da região,
+Exodus foi uma das pioneiras do movimento thrash metal e contribuiu significativamente
+para o desenvolvimento do gênero. Aqui está uma visão geral da história da banda:
+
+## Formação e primeiros anos
+
+Exodus foi formada em 1980 pelo guitarrista Kirk Hammett, que mais tarde se juntou
+ao Metallica, e o vocalista Paul Baloff, em Richmond, Califórnia. Em seus primeiros
+anos, a formação da banda passou por algumas mudanças, mas o núcleo consistia em
+Gary Holt e Rick Hunolt nas guitarras, Tom Hunting na bateria e Jeff Andrews no baixo.
+
+## "Bonded by Blood" e reconhecimento inicial
+
+Em 1984, a Exodus lançou seu álbum de estreia, "Bonded by Blood", que rapidamente
+ganhou reconhecimento como um dos álbuns mais influentes do thrash metal.
+O álbum apresentava músicas agressivas e rápidas, com letras inspiradas em temas
+como violência, guerra e corrupção.
+
+# Mudanças na formação
+
+A banda passou por várias mudanças na formação ao longo dos anos. Kirk Hammett
+deixou o Exodus em 1983 para se juntar ao Metallica, mas foi substituído por
+Rick Hunolt e Gary Holt assumiu como principal guitarrista. Paul Baloff também
+deixou a banda temporariamente, sendo substituído por Steve "Zetro" Souza.
+O Exodus lançou outros álbuns nessa época, como "Pleasures of the Flesh" (1987)
+e "Fabulous Disaster" (1989).
+
+## Pausa e retorno
+
+No início dos anos 1990, a banda entrou em uma pausa temporária,
+e muitos dos membros seguiram outros projetos. Gary Holt se juntou à banda Slayer
+como guitarrista de turnê, mas sempre manteve o Exodus vivo. Em 2004, o Exodus se
+reformou oficialmente, com Holt e Hunting como membros originais, e novos integrantes
+como Rob Dukes no vocal.
+
+## Perseverança e reconhecimento contínuo
+
+A partir dos anos 2000, a Exodus continuou lançando álbuns elogiados pela crítica
+e pelos fãs, como "Tempo of the Damned" (2004), "The Atrocity Exhibition...
+Exhibit A" (2007) e "Blood In, Blood Out" (2014). A banda manteve sua energia
+agressiva e presença no palco durante suas performances ao vivo.
+
+## Falecimento de Paul Baloff
+
+Infelizmente, em 2002, o vocalista original Paul Baloff faleceu devido a um
+ataque cardíaco, deixando um legado significativo no mundo do thrash metal.
+
+## Legado e influência
+
+A Exodus é considerada uma das bandas mais importantes e influentes do thrash metal.
+Sua abordagem agressiva e suas letras polêmicas ajudaram a moldar o som e o
+estilo do gênero. A banda também é admirada por sua dedicação à música e por sua
+contribuição para a cena da Bay Area e para o thrash metal em geral.
+
+Apesar de enfrentar desafios e mudanças ao longo dos anos, a Exodus continua sendo
+uma força relevante no cenário do metal e é respeitada por sua longevidade,
+atitude implacável e seu lugar na história do thrash metal.

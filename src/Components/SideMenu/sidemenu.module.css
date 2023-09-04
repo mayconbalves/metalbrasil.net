@@ -1,0 +1,29 @@
+.side__menu {
+  @apply bg-black shadow-2xl shadow-red-600 overflow-hidden fixed
+    left-0 top-0 bottom-0 z-max;
+  min-width: 360px;
+
+  @media (max-width: 540px) {
+    width: 100%;
+  }
+}
+
+.icon {
+  @apply flex w-full items-center justify-end h-14 pr-10;
+}
+
+.fade {
+  @apply h-full w-full z-100 fixed top-0 left-0 bg-gray-400 opacity-60;
+}
+
+.unordered__list {
+  @apply flex flex-col p-4;
+}
+
+.list {
+  @apply m-2;
+}
+
+.link {
+  @apply text-white hover:text-red-500;
+}

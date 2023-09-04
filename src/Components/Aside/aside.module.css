@@ -1,0 +1,12 @@
+.aside_title {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.aside_list {
+  font-size: large;
+}
+
+.aside_list:hover {
+  color: #f00;
+}
