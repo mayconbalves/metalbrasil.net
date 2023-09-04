@@ -1,0 +1,50 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "ignorePatterns": [
+    "**/*.js",
+    "next.config.js",
+    "**/vendor/*.js",
+    "**/*.mdx",
+    "**/*.md",
+    "**/*.css"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "react/react-in-jsx-scope": "off",
+    "@next/next/no-img-element": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".ts", ".tsx", ".js", ".jsx"]
+      }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "no-nested-ternary": "off",
+    "import/prefer-default-export": "off"
+  }
+}
