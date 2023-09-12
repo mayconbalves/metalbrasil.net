@@ -130,15 +130,19 @@ h5 {
 }
 
 .main_wrapper {
+  border: 1px solid red;
   position: relative;
   margin: 0 auto 20px;
-  max-width: 90%;
   padding: 2rem 0;
+  max-width: 65%;
   @media (max-width: 1280px) {
     padding: 2rem 0;
   }
-}
+  @media (max-width: 768px) {
+    max-width: 85%;
+  }
 
+}
 .card_grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
