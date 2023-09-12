@@ -76,4 +76,3 @@ function HomePage({ posts }) {
   )
 }
 export default HomePage
-

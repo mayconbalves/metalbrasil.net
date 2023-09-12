@@ -1,7 +1,14 @@
 import styles from './maincard.module.css'
 import Link from 'next/link'
 
-const MainCard = ({ slug, bandImage, subtitle, avatarImage, author, title }) => {
+const MainCard = ({
+  slug,
+  bandImage,
+  subtitle,
+  avatarImage,
+  author,
+  title
+}) => {
   return (
     <>
       <Link href={`/heavy-metal/${slug}`} legacyBehavior key={slug}>
