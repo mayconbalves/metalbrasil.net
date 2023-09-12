@@ -69,7 +69,7 @@ function HomePage({ posts }) {
       <div className="grid__wrapper">
         <PlayListSection playListContent={playListContent} />
       </div>
-      <div className="grid__wrapper bg-white dark:bg-black">
+      <div className="main_wrapper">
         <RecomendPostsSection />
       </div>
     </>

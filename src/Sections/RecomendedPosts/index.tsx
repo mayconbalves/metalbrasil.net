@@ -5,7 +5,7 @@ import styles from './recomended-posts.module.css'
 
 const RecomendedPostsSection = () => {
   return (
-    <>
+    <div className="dark:bg-black bg-white">
       <h3 className={styles.recomended_posts_title}>
         Curta mais dos nossos conteúdos
       </h3>
@@ -33,7 +33,7 @@ const RecomendedPostsSection = () => {
           )
         })}
       </div>
-    </>
+    </div>
   )
 }
 
