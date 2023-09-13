@@ -144,6 +144,8 @@ h5 {
 
 .card_grid {
   display: grid;
+  justify-items: center;
+  gap: 20px;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 
   @media (min-width: 768px) {
