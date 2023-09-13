@@ -32,7 +32,7 @@ img.next-image {
 }
 
 #full-menu {
-  position: fixed;
+  position: relative;
   top: 0;
   display: flex;
   @media (max-width: 1024px) {

@@ -53,7 +53,7 @@ const Navbar = () => {
 
       <nav
         id="icon-menu"
-        className="fixed z-50 flex w-full justify-between h-20 p-1 bg-black top-0"
+        className="top-0 z-50 flex justify-between w-full h-20 p-1 bg-black"
       >
         <ul className={styles.navbar__unordered_list}>
           <li className="m-2 cursor-pointer">
