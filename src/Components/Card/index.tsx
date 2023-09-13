@@ -19,7 +19,7 @@ const Card = ({ author, avatarImage, bandImage, subtitle, slug, title }) => {
           </a>
           <main className={styles.main_content}>
             <h2 className={styles.card_title}>{title}</h2>
-            <p>{subtitle}</p>
+            <p className={styles.card_subtitle}>{subtitle}</p>
           </main>
           <div className={styles.card_attribute}>
             <img

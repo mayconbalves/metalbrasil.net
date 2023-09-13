@@ -58,7 +58,7 @@ function HomePage({ posts }) {
               key={slug}
               author="Maycon B. Alves"
               avatarImage="https://cdn.pixabay.com/photo/2013/03/19/23/07/easter-bunny-95096_960_720.jpg"
-              subtitle="Band description"
+              subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
               title={frontmatter.title}
               bandImage={`/${frontmatter.socialImage}`}
               slug={slug}
