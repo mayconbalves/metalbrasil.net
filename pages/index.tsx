@@ -2,8 +2,8 @@ import fs from 'fs'
 import matter from 'gray-matter'
 import playListContent from '../content/playlist.json'
 import Card from '../src/Components/Card'
-import MainCard from '../src/Components/MainCard'
 import Hero from '../src/Components/Hero'
+import MainCard from '../src/Components/MainCard'
 import PlayListSection from '../src/Sections/Playlist'
 import RecomendPostsSection from '../src/Sections/RecomendedPosts'
 
@@ -69,10 +69,11 @@ function HomePage({ posts }) {
       <div className="grid__wrapper">
         <PlayListSection playListContent={playListContent} />
       </div>
-      <div className="main_wrapper">
+      <div className="main_wrapper dark:bg-black">
         <RecomendPostsSection />
       </div>
     </>
   )
 }
+
 export default HomePage

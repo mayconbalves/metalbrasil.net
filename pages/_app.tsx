@@ -8,12 +8,13 @@ import Footer from '../src/Components/Footer'
 import Navbar from '../src/Components/Navbar'
 import '../styles/globals.css'
 import '../styles/main.css'
+import styles from './styles.module.css'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Metal Brasil</title>
+        <title>Brasil Metal</title>
         <link
           rel="alternate"
           type="application/rss+xml"
@@ -29,11 +30,13 @@ export default function App({ Component, pageProps }: AppProps) {
         />
       </Head>
       <ThemeProvider attribute="class">
-        <Navbar />
-        <Component {...pageProps} />
-        <Analytics />
+        <div className={styles.normal_grid}>
+          <Navbar />
+          <Component {...pageProps} />
+          <Analytics />
+          <Footer />
+        </div>
       </ThemeProvider>
-      <Footer />
       <AdBanner data-ad-slot="7434970023" data-full-width-responsive="true" />
     </>
   )

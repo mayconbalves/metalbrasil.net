@@ -32,7 +32,7 @@ export default function Document() {
           crossOrigin="anonymous"
         />
       </Head>
-      <title>Metal Brasil</title>
+      <title>Brasil Metal</title>
       <body>
         <Main />
         <NextScript />
