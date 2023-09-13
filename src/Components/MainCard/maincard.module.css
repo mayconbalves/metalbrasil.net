@@ -1,7 +1,7 @@
 .card_container {
   display: flex;
   flex-direction: column;
-  width: 940px;
+  max-width: 940px;
   margin: 2em auto;
   border: 1px solid #fff;
   cursor: pointer;
