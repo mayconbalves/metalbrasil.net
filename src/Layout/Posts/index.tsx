@@ -1,5 +1,4 @@
 import Aside from '../../Components/Aside'
-import RecomendPostsSection from '../../Sections/RecomendedPosts'
 import styles from './layout.module.css'
 
 const PostLayout = ({ title, subtitle, description, imageProps }) => {
@@ -30,9 +29,6 @@ const PostLayout = ({ title, subtitle, description, imageProps }) => {
         <div className="grid__main_aside bg-white dark:bg-black">
           <Aside />
         </div>
-      </div>
-      <div className="grid__wrapper">
-        <RecomendPostsSection />
       </div>
     </>
   )
