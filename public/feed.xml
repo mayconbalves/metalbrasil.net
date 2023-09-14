@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[Your Name]]></title>
-        <description><![CDATA[Your Name]]></description>
-        <link>https://yoursite.com</link>
+        <title><![CDATA[Brasil Metal]]></title>
+        <description><![CDATA[Brasil Metal]]></description>
+        <link>https://mayconbalves.com.br/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 30 Aug 2023 01:53:52 GMT</lastBuildDate>
-        <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Thu, 14 Sep 2023 19:59:51 GMT</lastBuildDate>
+        <atom:link href="https://mayconbalves.com.br/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Next.js Pages]]></title>
-            <description><![CDATA[Learn more about Next.js pages.]]></description>
-            <link>/posts/pages</link>
-            <guid isPermaLink="true">/posts/pages</guid>
-            <category><![CDATA[web development]]></category>
-            <dc:creator><![CDATA[You]]></dc:creator>
-            <pubDate>Thu, 18 Mar 2021 03:00:00 GMT</pubDate>
+            <title><![CDATA[Accept]]></title>
+            <link>https://mayconbalves.com.br/heavy-metal/accept</link>
+            <guid isPermaLink="true">https://mayconbalves.com.br/heavy-metal/accept</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Black Sabbath]]></title>
+            <link>https://mayconbalves.com.br/heavy-metal/black-sabbath</link>
+            <guid isPermaLink="true">https://mayconbalves.com.br/heavy-metal/black-sabbath</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Judas Priest]]></title>
+            <link>https://mayconbalves.com.br/heavy-metal/judas-priest</link>
+            <guid isPermaLink="true">https://mayconbalves.com.br/heavy-metal/judas-priest</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Led Zeppelin]]></title>
+            <link>https://mayconbalves.com.br/heavy-metal/led-zeppelin</link>
+            <guid isPermaLink="true">https://mayconbalves.com.br/heavy-metal/led-zeppelin</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iron Maiden]]></title>
+            <link>https://mayconbalves.com.br/heavy-metal/iron-maiden</link>
+            <guid isPermaLink="true">https://mayconbalves.com.br/heavy-metal/iron-maiden</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Deep Purple]]></title>
+            <link>https://mayconbalves.com.br/heavy-metal/deep-purple</link>
+            <guid isPermaLink="true">https://mayconbalves.com.br/heavy-metal/deep-purple</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
