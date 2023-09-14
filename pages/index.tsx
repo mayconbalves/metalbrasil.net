@@ -5,7 +5,6 @@ import Card from '../src/Components/Card'
 import Hero from '../src/Components/Hero'
 import MainCard from '../src/Components/MainCard'
 import PlayListSection from '../src/Sections/Playlist'
-import RecomendPostsSection from '../src/Sections/RecomendedPosts'
 
 export async function getStaticProps() {
   try {
@@ -68,9 +67,6 @@ function HomePage({ posts }) {
       </div>
       <div className="grid__wrapper">
         <PlayListSection playListContent={playListContent} />
-      </div>
-      <div className="main_wrapper dark:bg-black">
-        <RecomendPostsSection />
       </div>
     </>
   )
