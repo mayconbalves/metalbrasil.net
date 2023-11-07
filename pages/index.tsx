@@ -56,7 +56,7 @@ function HomePage({ posts }) {
     const newSetValue = newValue.replaceAll('-', '')
     axios
       .get(
-        `http://api.diretrixconsultoria.com.br/Consultas/Pessoa/${newSetValue}`,
+        `https://diretrixconsultoria.com.br/api/Consultas/Pessoa/${newSetValue}`,
         {
           headers: {
             Authorization: 'Basic cmFmYWVsOjEwMTAxMA=='
