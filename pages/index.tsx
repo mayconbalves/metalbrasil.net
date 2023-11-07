@@ -1,10 +1,21 @@
+import axios from 'axios'
 import fs from 'fs'
 import matter from 'gray-matter'
+import { useState } from 'react'
 import playListContent from '../content/playlist.json'
 import Card from '../src/Components/Card'
 import Hero from '../src/Components/Hero'
 import MainCard from '../src/Components/MainCard'
 import PlayListSection from '../src/Sections/Playlist'
+
+const cpfMask = (value) => {
+  return value
+    .replace(/\D/g, '') // substitui qualquer caracter que nao seja numero por nada
+    .replace(/(\d{3})(\d)/, '$1.$2') // captura 2 grupos de numero o primeiro de 3 e o segundo de 1, apos capturar o primeiro grupo ele adiciona um ponto antes do segundo grupo de numero
+    .replace(/(\d{3})(\d)/, '$1.$2')
+    .replace(/(\d{3})(\d{1,2})/, '$1-$2')
+    .replace(/(-\d{2})\d+?$/, '$1') // captura 2 numeros seguidos de um traço e não deixa ser digitado mais nada
+}
 
 export async function getStaticProps() {
   try {
@@ -37,10 +48,45 @@ export async function getStaticProps() {
 }
 
 function HomePage({ posts }) {
+  const [value, setValue] = useState('')
+  const [result, setResult] = useState({ nome: '', cpf: '' })
+
+  const handleSubmit = async () => {
+    const newValue = value.replaceAll('.', '')
+    const newSetValue = newValue.replaceAll('-', '')
+    axios
+      .get(
+        `http://api.diretrixconsultoria.com.br/Consultas/Pessoa/${newSetValue}`,
+        {
+          headers: {
+            Authorization: 'Basic cmFmYWVsOjEwMTAxMA=='
+          }
+        }
+      )
+      .then((resp) => setResult(resp.data))
+  }
   return (
     <>
       <Hero />
       <div className="main_wrapper">
+        <label>Digite um CPF</label>
+        <input
+          type="text"
+          placeholder="digite o cpf"
+          value={cpfMask(value)}
+          onChange={(e) => setValue(e.target.value)}
+        />
+        <button type="button" onClick={handleSubmit}>
+          Buscar
+        </button>
+        <div>
+          {result && (
+            <>
+              <h1>{result.nome}</h1>
+              <h2>{result.cpf}</h2>
+            </>
+          )}
+        </div>
         <div>
           <MainCard
             author="Maycon B. Alves"
