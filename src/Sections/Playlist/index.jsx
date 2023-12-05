@@ -1,13 +1,10 @@
-import { Props } from './interface'
-import styles from './playlist.module.css'
-
-const PlayList = ({ playListContent }: Props) => {
+const PlayList = ({ playListContent }) => {
   const {
     content: { mainIframe, iframe }
   } = playListContent
   return (
-    <section className={`${styles.playlist_container} dark:bg-black bg-white `}>
-      <div className={styles.playlist_iframe}>
+    <section>
+      <div>
         <h2>Ouça nossa playlist</h2>
         <iframe
           width={mainIframe.width}
@@ -18,14 +15,11 @@ const PlayList = ({ playListContent }: Props) => {
           allowFullScreen
         />
       </div>
-      <div className={styles.playlist_list}>
+      <div>
         <ul>
           {iframe.map((content) => {
             return (
-              <div
-                key={content.title}
-                className={`${styles.wrapper_list} shadow-lg shadow-black dark:shadow-white`}
-              >
+              <div key={content.title}>
                 <li>
                   <iframe
                     width={content.width}
@@ -36,7 +30,7 @@ const PlayList = ({ playListContent }: Props) => {
                     allowFullScreen
                   />
                 </li>
-                <div className={styles.wrapper_list_title}>
+                <div>
                   <p>{content.videoTitle}</p>
                 </div>
               </div>
