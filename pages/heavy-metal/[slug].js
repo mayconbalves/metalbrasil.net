@@ -1,8 +1,6 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import md from 'markdown-it'
-import Aside from '../../src/Components/Aside'
-import style from './page.module.css'
 
 export async function getStaticPaths() {
   try {
@@ -54,7 +52,7 @@ export async function getStaticProps({ params: { slug } }) {
 function Post({ frontmatter, content }) {
   return (
     <div className="grid__wrapper">
-      <div className={`${style.post_description} dark:bg-black bg-white`}>
+      <div>
         <h1 className="p-8 text-center text-5xl">{frontmatter.title}</h1>
         <div className="pb-8" dangerouslySetInnerHTML={{ __html: md().render(content) }} />
       </div>

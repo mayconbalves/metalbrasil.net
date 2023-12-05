@@ -25,16 +25,13 @@
     "**/*.md",
     "**/*.css"
   ],
-  "plugins": ["@typescript-eslint"],
+  "plugins": [],
   "extends": [
     "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended",
     "prettier",
     "plugin:prettier/recommended"
   ],
   "rules": {
-    "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "error",
     "react/react-in-jsx-scope": "off",
     "@next/next/no-img-element": "off",
     "react/jsx-filename-extension": [
