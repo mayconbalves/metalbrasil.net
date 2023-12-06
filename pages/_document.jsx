@@ -3,11 +3,11 @@ import Script from 'next/script'
 
 export default function Document() {
   const meta = {
-    title: 'Brasil Metal',
+    title: 'Metal Brasil',
     description:
-      'Website dedicado ao rock n roll e sobre o melhor estilo de música que existe.',
+      'Website dedicado ao metal do Brasil e sobre o melhor estilo de música que existe.',
     image: 'https://mayconbalves.com.br/images/brasil-metal.png',
-    url: 'https://mayconbalves.com.br/'
+    url: 'https://www.metalbrasil.net/'
   }
 
   return (
@@ -20,7 +20,7 @@ export default function Document() {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yourname" />
+        <meta name="twitter:site" content="@metalbrasil" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -32,7 +32,7 @@ export default function Document() {
           crossOrigin="anonymous"
         />
       </Head>
-      <title>Brasil Metal</title>
+      <title>Metal Brasil</title>
       <body>
         <Main />
         <NextScript />

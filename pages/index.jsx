@@ -53,7 +53,7 @@ function HomePage({ posts }) {
           }}
         >
           <img
-            src="images/logo2.png"
+            src="images/logo.png"
             alt="logo"
             style={{ position: 'relative', height: 'inherit' }}
           />

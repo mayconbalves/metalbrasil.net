@@ -3,13 +3,14 @@ import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 import 'nextra-theme-blog/style.css'
 import AdBanner from '../src/Components/AdBanner'
-import styles from './styles.module.css'
+import '../styles/base.css'
+import '../styles/reset.css'
 
 export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Brasil Metal</title>
+        <title>Metal Brasil</title>
         <link
           rel="alternate"
           type="application/rss+xml"
@@ -25,10 +26,8 @@ export default function App({ Component, pageProps }) {
         />
       </Head>
       <ThemeProvider attribute="class">
-        <div className={styles.normal_grid}>
-          <Component {...pageProps} />
-          <Analytics />
-        </div>
+        <Component {...pageProps} />
+        <Analytics />
       </ThemeProvider>
       <AdBanner data-ad-slot="7434970023" data-full-width-responsive="true" />
     </>
