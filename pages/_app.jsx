@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 import 'nextra-theme-blog/style.css'
