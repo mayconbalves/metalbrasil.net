@@ -1,10 +1,11 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import md from 'markdown-it'
+import { Wrapper } from './styled'
 
 export async function getStaticPaths() {
   try {
-    const files = fs.readdirSync('public/posts/heavy-metal')
+    const files = fs.readdirSync('public/posts/thrash-metal')
 
     const paths = files.map((fileName) => ({
       params: {
@@ -29,7 +30,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params: { slug } }) {
   try {
     const fileName = fs.readFileSync(
-      `public/posts/heavy-metal/${slug}.md`,
+      `public/posts/thrash-metal/${slug}.md`,
       'utf-8'
     )
     const { data: frontmatter, content } = matter(fileName)
@@ -51,12 +52,10 @@ export async function getStaticProps({ params: { slug } }) {
 
 function Post({ frontmatter, content }) {
   return (
-    <div>
-      <div>
-        <h1>{frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-      </div>
-    </div>
+    <Wrapper>
+      <h1>{frontmatter.title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+    </Wrapper>
   )
 }
 

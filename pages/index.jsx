@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Card from 'src/Components/Card'
+import Caroulsel from 'src/Components/Carousel'
 import Navbar from 'src/Components/Navbar'
 
 export async function getStaticProps() {
@@ -41,6 +42,11 @@ function HomePage({ posts }) {
     <Container fluid>
       <Row>
         <Navbar />
+      </Row>
+      <Row style={{ margin: '40px 0' }}>
+        <Col md={{ span: 6, offset: 3 }}>
+          <Caroulsel />
+        </Col>
       </Row>
       <Row>
         {posts.map(({ slug, frontmatter }) => (
