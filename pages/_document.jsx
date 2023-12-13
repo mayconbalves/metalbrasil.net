@@ -31,6 +31,10 @@ export default function Document() {
           strategy="lazyOnload"
           crossOrigin="anonymous"
         />
+        <link
+          href="https://fonts.cdnfonts.com/css/metal-mania"
+          rel="stylesheet"
+        />
       </Head>
       <title>Metal Brasil</title>
       <body>
