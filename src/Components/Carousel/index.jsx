@@ -11,6 +11,7 @@ const CaroulselComponent = () => {
           <Image
             src="/images/bands/heavy-metal/heavy-metal-background.jpg"
             alt="img"
+            style={{ width: '100%', height: '100%' }}
           />
         </Link>
         <Carousel.Caption>
@@ -21,6 +22,7 @@ const CaroulselComponent = () => {
         <Image
           src="/images/bands/heavy-metal/heavy-metal-background.jpg"
           alt="img"
+          style={{ width: '100%', height: '100%' }}
         />
         <Carousel.Caption>
           <Title>Second slide label</Title>
@@ -33,6 +35,7 @@ const CaroulselComponent = () => {
         <Image
           src="/images/bands/heavy-metal/heavy-metal-background.jpg"
           alt="img"
+          style={{ width: '100%', height: '100%' }}
         />
         <Carousel.Caption>
           <Title>Third slide label</Title>
