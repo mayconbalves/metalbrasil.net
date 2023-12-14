@@ -6,18 +6,18 @@ const Navbar = () => {
     <Nav>
       <Ul>
         <ImgLink href="/" style={{ height: 'inherit' }}>
-          <Img src="images/logo.png" alt="logo" />
+          <Img src="https://www.metalbrasil.net/images/logo.png" alt="logo" />
         </ImgLink>
       </Ul>
       <Ul>
         <Li>
-          <Link href="noticias">Notícias</Link>
+          <Link href="/noticias">Notícias</Link>
         </Li>
         <Li>
-          <Link href="discografias">Discografias</Link>
+          <Link href="/discografias">Discografias</Link>
         </Li>
         <Li>
-          <Link href="playlists">PlayLists</Link>
+          <Link href="/playlists">PlayLists</Link>
         </Li>
       </Ul>
     </Nav>

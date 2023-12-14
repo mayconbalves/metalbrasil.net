@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Card from 'src/Components/Card'
+import Caroulsel from 'src/Components/Carousel'
 import Navbar from 'src/Components/Navbar'
 
 export async function getStaticProps() {
@@ -42,9 +43,14 @@ function HomePage({ posts }) {
       <Row>
         <Navbar />
       </Row>
-      <Row>
-        {posts.map(({ slug, frontmatter }) => (
-          <Col key={slug} xs={12} md={6}>
+      <Row style={{ margin: '40px 0 20px' }}>
+        <Col md={{ span: 10, offset: 1 }} lg={{ span: 8, offset: 2 }}>
+          <Caroulsel />
+        </Col>
+      </Row>
+      {posts.map(({ slug, frontmatter }) => (
+        <Row key={slug} className="justify-content-md-center">
+          <Col md={10} lg={8} style={{ margin: '20px 0 0 0' }}>
             <Card
               author="Maycon B. Alves"
               avatarImage="https://cdn.pixabay.com/photo/2013/03/19/23/07/easter-bunny-95096_960_720.jpg"
@@ -54,8 +60,8 @@ function HomePage({ posts }) {
               slug={slug}
             />
           </Col>
-        ))}
-      </Row>
+        </Row>
+      ))}
       )
     </Container>
   )
