@@ -4,7 +4,7 @@
         <description><![CDATA[Brasil Metal]]></description>
         <link>https://mayconbalves.com.br/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 06 Dec 2023 01:47:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Dec 2023 00:52:05 GMT</lastBuildDate>
         <atom:link href="https://mayconbalves.com.br/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Accept]]></title>
@@ -16,6 +16,12 @@
             <title><![CDATA[Black Sabbath]]></title>
             <link>https://mayconbalves.com.br/heavy-metal/black-sabbath</link>
             <guid isPermaLink="true">https://mayconbalves.com.br/heavy-metal/black-sabbath</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Judas Priest]]></title>
+            <link>https://mayconbalves.com.br/heavy-metal/judas-priest</link>
+            <guid isPermaLink="true">https://mayconbalves.com.br/heavy-metal/judas-priest</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
@@ -31,27 +37,21 @@
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Judas Priest]]></title>
-            <link>https://mayconbalves.com.br/heavy-metal/judas-priest</link>
-            <guid isPermaLink="true">https://mayconbalves.com.br/heavy-metal/judas-priest</guid>
-            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Anthrax]]></title>
             <link>https://mayconbalves.com.br/thrash-metal/anthrax</link>
             <guid isPermaLink="true">https://mayconbalves.com.br/thrash-metal/anthrax</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Exodus]]></title>
-            <link>https://mayconbalves.com.br/thrash-metal/exodus</link>
-            <guid isPermaLink="true">https://mayconbalves.com.br/thrash-metal/exodus</guid>
-            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Kreator]]></title>
             <link>https://mayconbalves.com.br/thrash-metal/kreator</link>
             <guid isPermaLink="true">https://mayconbalves.com.br/thrash-metal/kreator</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Exodus]]></title>
+            <link>https://mayconbalves.com.br/thrash-metal/exodus</link>
+            <guid isPermaLink="true">https://mayconbalves.com.br/thrash-metal/exodus</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>

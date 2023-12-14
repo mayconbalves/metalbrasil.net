@@ -1,7 +1,8 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import md from 'markdown-it'
-import { Wrapper } from './styled'
+import GridNews from 'src/Components/GridNews'
+import Navbar from 'src/Components/Navbar'
 
 export async function getStaticPaths() {
   try {
@@ -52,10 +53,13 @@ export async function getStaticProps({ params: { slug } }) {
 
 function Post({ frontmatter, content }) {
   return (
-    <Wrapper>
-      <h1>{frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-    </Wrapper>
+    <>
+      <Navbar />
+      <GridNews>
+        <h1>{frontmatter.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+      </GridNews>
+    </>
   )
 }
 
