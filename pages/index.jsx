@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row'
 import Card from 'src/Components/Card'
 import Caroulsel from 'src/Components/Carousel'
 import Navbar from 'src/Components/Navbar'
+import ReviewSection from 'src/Sections/Review'
 
 export async function getStaticProps() {
   try {
@@ -62,7 +63,9 @@ function HomePage({ posts }) {
           </Col>
         </Row>
       ))}
-      )
+      <Row>
+        <ReviewSection />
+      </Row>
     </Container>
   )
 }
