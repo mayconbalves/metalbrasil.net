@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 export const Wrapper = styled(Container)`
   background-color: #000;
-  height: 600px;
+  height: auto;
+  min-height: 600px;
   padding: 80px 60px;
 `
 
@@ -28,4 +29,32 @@ export const SpanTitle = styled.span`
   background-size: 0 0.1em, 100% 0.1em;
   color: red;
 }
+`
+
+export const ImageRow = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 10px;
+  row-gap: 15px;
+  justify-items: center;
+
+  @media(min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media(min-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+`
+
+export const ImageWrapper = styled.figure`
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`
+export const FigCaption = styled.figcaption`
+  color: #fff;
+  text-align: center;
 `

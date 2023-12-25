@@ -1,7 +1,12 @@
 import Image from 'next/image'
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
-import { SpanTitle, Title, Wrapper } from './styled'
+import {
+  FigCaption,
+  ImageRow,
+  ImageWrapper,
+  SpanTitle,
+  Title,
+  Wrapper
+} from './styled'
 
 const ReviewSection = () => {
   return (
@@ -10,25 +15,47 @@ const ReviewSection = () => {
         Veja nossos <SpanTitle>Reviews</SpanTitle>
       </Title>
 
-      <Row>
-        <Col xs={3}>
+      <ImageRow>
+        <ImageWrapper>
           <Image
-            src="/images/reviews/lamb-of-god-wrath.png"
+            src="/images/reviews/ashes-of-the-wake.png"
             alt="lamb of god wrath"
-            width="200"
-            height="200"
+            width="300"
+            height="300"
           />
-        </Col>
+          <FigCaption>Lamb of god - ashes of the wake</FigCaption>
+        </ImageWrapper>
 
-        <Col xs={3}>
+        <ImageWrapper>
           <Image
-            src="/images/reviews/lamb-of-god-wrath.png"
+            src="/images/reviews/ashes-of-the-wake.png"
             alt="lamb of god wrath"
-            width="200"
-            height="200"
+            width="300"
+            height="300"
           />
-        </Col>
-      </Row>
+          <FigCaption>Lamb of god - ashes of the wake</FigCaption>
+        </ImageWrapper>
+
+        <ImageWrapper>
+          <Image
+            src="/images/reviews/ashes-of-the-wake.png"
+            alt="lamb of god wrath"
+            width="300"
+            height="300"
+          />
+          <FigCaption>Lamb of god - ashes of the wake</FigCaption>
+        </ImageWrapper>
+
+        <ImageWrapper>
+          <Image
+            src="/images/reviews/ashes-of-the-wake.png"
+            alt="lamb of god wrath"
+            width="300"
+            height="300"
+          />
+          <FigCaption>Lamb of god - ashes of the wake</FigCaption>
+        </ImageWrapper>
+      </ImageRow>
     </Wrapper>
   )
 }
