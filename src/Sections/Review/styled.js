@@ -27,7 +27,7 @@ export const SpanTitle = styled.span`
 &:hover,
 &:focus {
   background-size: 0 0.1em, 100% 0.1em;
-  color: red;
+  color: #d60000;
 }
 `
 

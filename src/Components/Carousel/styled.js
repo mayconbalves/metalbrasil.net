@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Title = styled.h2`
-  color: red;
+  color: #d60000;
   font-size: 3rem;
   text-align: left;
   font-family: 'Inconsolata', monospace;;

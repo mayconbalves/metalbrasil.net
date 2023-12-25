@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styled from "styled-components"
 
 export const Nav = styled.nav`
-  background-color: red;
+  background-color: #d60000;
   display: flex;
   height: 80px;
   justify-content: space-around;

@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Card from 'src/Components/Card'
 import Caroulsel from 'src/Components/Carousel'
+import Footer from 'src/Components/Footer'
 import Navbar from 'src/Components/Navbar'
 import ReviewSection from 'src/Sections/Review'
 
@@ -65,6 +66,10 @@ function HomePage({ posts }) {
       ))}
       <Row>
         <ReviewSection />
+      </Row>
+
+      <Row>
+        <Footer />
       </Row>
     </Container>
   )
