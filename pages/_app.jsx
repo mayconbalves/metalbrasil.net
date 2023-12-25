@@ -3,9 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 import 'nextra-theme-blog/style.css'
+import GlobalStyle from 'styles/global'
 import AdBanner from '../src/Components/AdBanner'
-import '../styles/base.css'
-import '../styles/reset.css'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -27,6 +26,7 @@ export default function App({ Component, pageProps }) {
         />
       </Head>
       <ThemeProvider attribute="class">
+        <GlobalStyle />
         <Component {...pageProps} />
         <Analytics />
       </ThemeProvider>
