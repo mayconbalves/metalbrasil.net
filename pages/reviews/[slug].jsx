@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 
     const paths = files.map((fileName) => ({
       params: {
-        slug: fileName.replace('.md', '')
+        slug: fileName.replace('.mdx', '')
       }
     }))
 
