@@ -20,6 +20,9 @@
     ]
   },
   "dependencies": {
+    "@mdx-js/loader": "^3.0.0",
+    "@mdx-js/react": "^3.0.0",
+    "@next/mdx": "^14.0.4",
     "@tailwindcss/container-queries": "^0.1.1",
     "@vercel/analytics": "^1.0.1",
     "bootstrap": "^5.3.2",
