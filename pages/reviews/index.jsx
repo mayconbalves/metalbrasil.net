@@ -1,14 +1,14 @@
 import Navbar from 'src/Components/Navbar'
 
-const PlayLists = () => {
+const Reviews = () => {
   return (
     <>
       <Navbar />
       <div>
-        <h1>PlayLists</h1>
+        <h1>Reviews</h1>
       </div>
     </>
   )
 }
 
-export default PlayLists
+export default Reviews
