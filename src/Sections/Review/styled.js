@@ -2,10 +2,13 @@ import Container from 'react-bootstrap/Container'
 import styled from 'styled-components'
 
 export const Wrapper = styled(Container)`
+  padding: 40px 30px;
   background-color: #000;
   height: auto;
   min-height: 600px;
-  padding: 80px 60px;
+  @media(min-width: 768px) {
+    padding: 80px 60px;
+  }
 `
 
 export const Title = styled.h2`
