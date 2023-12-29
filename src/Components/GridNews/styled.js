@@ -40,7 +40,6 @@ export const Wrapper = styled.div`
   h5 {
     font-family: 'Metal Mania', sans-serif;
     margin: 2.4rem auto 1rem;
-    color: var(--title-color);
   }
   ul,
   ol {
@@ -63,6 +62,7 @@ export const Wrapper = styled.div`
   img {
     display: block;
     max-width: 100%;
+    margin: 0 auto;
   }
   iframe {
     padding: 0 1.6rem 1.6rem;
@@ -97,19 +97,20 @@ export const Wrapper = styled.div`
   }
   h1 {
     font-size: 2.8rem;
-    ${media.lessThan('large')`
-      font-size: 1.875rem;
+    text-align: center;
+    ${media.lessThan('medium')`
+      font-size: 2rem;
     `}
   }
   h2 {
     font-size: 2.1rem;
-    ${media.lessThan('large')`
+    ${media.lessThan('medium')`
       font-size: 1.375rem;
     `}
   }
   h3 {
     font-size: 1.6rem;
-    ${media.lessThan('large')`
+    ${media.lessThan('medium')`
       font-size: 1.125rem;
     `}
   }

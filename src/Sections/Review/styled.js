@@ -52,7 +52,7 @@ export const ImageRow = styled.div`
 
 export const ImageWrapper = styled.figure`
   height: 300px;
-  width: 300px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;

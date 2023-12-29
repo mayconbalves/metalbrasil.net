@@ -12,4 +12,5 @@ export const Wrapper = styled.footer`
 
 export const Reservation = styled.p`
   color: #fff;
+  text-align: center;
 ` 
