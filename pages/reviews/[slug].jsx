@@ -58,6 +58,7 @@ function Post({ frontmatter, content }) {
       <Navbar />
       <GridNews>
         <h1>{frontmatter.title}</h1>
+        <img src={frontmatter.image} alt={frontmatter.title} />
         <div
           dangerouslySetInnerHTML={{
             __html: md({ html: true }).render(content)
