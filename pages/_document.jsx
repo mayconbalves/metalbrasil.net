@@ -53,7 +53,10 @@ export default class MyDocument extends Document {
           <meta name="twitter:description" content={meta.description} />
           <meta name="twitter:image" content={meta.image} />
           <meta property="og:url" content={meta.url}></meta>
-          <meta name="google-site-verification" content="3aPUSumKVURK7bht5GRgeZ8x9T7ce4guRMRMbP95XQs"></meta>
+          <meta
+            name="google-site-verification"
+            content="3aPUSumKVURK7bht5GRgeZ8x9T7ce4guRMRMbP95XQs"
+          />
           <Script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4370754805788508"
