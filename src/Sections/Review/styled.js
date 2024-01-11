@@ -60,4 +60,5 @@ export const ImageWrapper = styled.figure`
 export const FigCaption = styled.figcaption`
   color: #fff;
   text-align: center;
+  margin-top: 10px;
 `

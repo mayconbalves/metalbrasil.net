@@ -21,23 +21,23 @@ const ReviewSection = () => {
           <ImageWrapper>
             <Image
               src="/images/reviews/ashes-of-the-wake.png"
-              alt="lamb of god wrath"
+              alt="lamb of god ashes of the wake"
               width="300"
               height="300"
             />
-            <FigCaption>Lamb of god - ashes of the wake</FigCaption>
+            <FigCaption>Lamb of God - ashes of the wake</FigCaption>
           </ImageWrapper>
         </Link>
 
-        <Link href="/reviews/lamb-of-god-ashes-of-the-wake">
+        <Link href="/reviews/black-label-society-doom-crew-inc">
           <ImageWrapper>
             <Image
-              src="/images/reviews/ashes-of-the-wake.png"
-              alt="lamb of god wrath"
+              src="/images/reviews/doom-crew-inc.jpg"
+              alt="Black Label Society - doom crew inc"
               width="300"
               height="300"
             />
-            <FigCaption>Lamb of god - ashes of the wake</FigCaption>
+            <FigCaption>Black Label Society - doom crew inc</FigCaption>
           </ImageWrapper>
         </Link>
 
