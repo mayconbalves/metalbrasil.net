@@ -62,7 +62,7 @@ export const Wrapper = styled.div`
   img {
     display: block;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 20px;
   }
   iframe {
     padding: 0 1.6rem 1.6rem;

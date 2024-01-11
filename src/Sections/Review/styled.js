@@ -40,6 +40,7 @@ export const ImageRow = styled.div`
   column-gap: 10px;
   row-gap: 15px;
   justify-items: center;
+  margin-top: 20px;
 
   @media(min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
@@ -51,7 +52,6 @@ export const ImageRow = styled.div`
 `
 
 export const ImageWrapper = styled.figure`
-  height: 300px;
   max-width: 300px;
   display: flex;
   flex-direction: column;
@@ -60,4 +60,5 @@ export const ImageWrapper = styled.figure`
 export const FigCaption = styled.figcaption`
   color: #fff;
   text-align: center;
+  margin-top: 10px;
 `

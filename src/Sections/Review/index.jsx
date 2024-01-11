@@ -20,48 +20,48 @@ const ReviewSection = () => {
         <Link href="/reviews/lamb-of-god-ashes-of-the-wake">
           <ImageWrapper>
             <Image
-              src="/images/reviews/ashes-of-the-wake.png"
-              alt="lamb of god wrath"
+              src="/images/reviews/ashes-of-the-wake.jpeg"
+              alt="lamb of god ashes of the wake"
               width="300"
               height="300"
             />
-            <FigCaption>Lamb of god - ashes of the wake</FigCaption>
+            <FigCaption>Lamb of God - ashes of the wake</FigCaption>
           </ImageWrapper>
         </Link>
 
-        <Link href="/reviews/lamb-of-god-ashes-of-the-wake">
+        <Link href="/reviews/black-label-society-doom-crew-inc">
           <ImageWrapper>
             <Image
-              src="/images/reviews/ashes-of-the-wake.png"
-              alt="lamb of god wrath"
+              src="/images/reviews/doom-crew-inc.jpeg"
+              alt="Black Label Society - doom crew inc"
               width="300"
               height="300"
             />
-            <FigCaption>Lamb of god - ashes of the wake</FigCaption>
+            <FigCaption>Black Label Society - doom crew inc</FigCaption>
           </ImageWrapper>
         </Link>
 
-        <Link href="/reviews/lamb-of-god-ashes-of-the-wake">
+        <Link href="/reviews/megadeth-rude-awakening">
           <ImageWrapper>
             <Image
-              src="/images/reviews/ashes-of-the-wake.png"
-              alt="lamb of god wrath"
+              src="/images/reviews/rude-awakening.jpeg"
+              alt="Megadeth - rude awakening"
               width="300"
               height="300"
             />
-            <FigCaption>Lamb of god - ashes of the wake</FigCaption>
+            <FigCaption>Megadeth - rude awakening</FigCaption>
           </ImageWrapper>
         </Link>
 
-        <Link href="/reviews/lamb-of-god-ashes-of-the-wake">
+        <Link href="/reviews/mercyful-fate-melissa">
           <ImageWrapper>
             <Image
-              src="/images/reviews/ashes-of-the-wake.png"
-              alt="lamb of god wrath"
+              src="/images/reviews/melissa.jpg"
+              alt="Mercyful Fate - melissa"
               width="300"
               height="300"
             />
-            <FigCaption>Lamb of god - ashes of the wake</FigCaption>
+            <FigCaption>Mercyful Fate - melissa</FigCaption>
           </ImageWrapper>
         </Link>
       </ImageRow>
