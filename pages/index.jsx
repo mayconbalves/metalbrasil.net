@@ -8,7 +8,7 @@ import Caroulsel from 'src/Components/Carousel'
 import Footer from 'src/Components/Footer'
 import Navbar from 'src/Components/Navbar'
 import ReviewSection from 'src/Sections/Review'
-import { GridCards } from './styled'
+import { GridCards } from '../styles/home'
 
 export async function getStaticProps() {
   try {
