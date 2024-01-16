@@ -34,8 +34,8 @@ export default class MyDocument extends Document {
       title: 'Metal Brasil',
       description:
         'Website dedicado ao metal do Brasil e sobre o melhor estilo de música que existe.',
-      image: 'https://mayconbalves.com.br/images/brasil-metal.png',
-      url: 'https://www.metalbrasil.net/'
+      image: 'https://www.metalbrasil.net/images/brasil-metal.png',
+      url: 'https://www.metalbrasil.net'
     }
 
     return (
