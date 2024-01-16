@@ -6,13 +6,14 @@ const matter = require('gray-matter')
 async function generate() {
   const feed = new RSS({
     title: 'Brasil Metal',
-    site_url: 'https://mayconbalves.com.br/',
-    feed_url: 'https://mayconbalves.com.br/feed.xml'
+    site_url: 'https://www.metalbrasil.net',
+    feed_url: 'https://www.metalbrasil.net/feed.xml'
   })
 
   const heavyMetalPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'heavy-metal'))
   const thrashMetalPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'thrash-metal'))
-  const siteUrl = 'https://mayconbalves.com.br'
+  const reviewsPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'reviews'))
+  const siteUrl = 'https://www.metalbrasil.net'
 
   await Promise.all(
     heavyMetalPosts.map(async (name) => {
@@ -46,13 +47,29 @@ async function generate() {
         url: `${siteUrl}/thrash-metal/` + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
-        // categories: frontmatter.data.tag.split(', '),
+        author: frontmatter.data.author
+      })
+    }),
+
+    reviewsPosts.map(async (name) => {
+      if (name.startsWith('index.')) return
+      const content = await fs.readFile(
+        path.join(__dirname, '..', 'public', 'posts', 'reviews', name)
+      )
+
+      const frontmatter = matter(content)
+
+      feed.item({
+        title: frontmatter.data.title,
+        url: `${siteUrl}/reviews/` + name.replace(/\.mdx?/, ''),
+        date: frontmatter.data.date,
+        description: frontmatter.data.description,
         author: frontmatter.data.author
       })
     })
   )
 
-  await fs.writeFile('./public/feed.xml', feed.xml({ indent: true }))
+  await fs.writeFile('./public/sitemap.xml', feed.xml({ indent: true }))
 }
 
 generate()

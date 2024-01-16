@@ -1,6 +1,6 @@
 # Brasil Metal
 
-[Access It](https://mayconbalves.com.br/)
+[Access It](https://www.metalbrasil.net/)
 
 ## Deploy your own
 
