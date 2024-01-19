@@ -31,8 +31,7 @@ export default class MyDocument extends Document {
 
   render() {
     const meta = {
-      title:
-        'MetalBrasil.Net Rock and Roll, Heavy Metal e muito metal',
+      title: 'MetalBrasil.Net Rock and Roll, Heavy Metal e muito metal',
       description:
         'metalbrasil.Net é um site colaborativo sobre Rock, Heavy Metal e todo tipo de metal. O conteúdo do Website é dedica para as pessoas que gostam de agitar o cabelo e balançar a cabeça com o bom e velho rock n roll.',
       image: 'https://www.metalbrasil.net/images/brasil-metal.png',
