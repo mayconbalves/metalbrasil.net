@@ -31,9 +31,10 @@ export default class MyDocument extends Document {
 
   render() {
     const meta = {
-      title: 'Metal Brasil',
+      title:
+        'MetalBrasil.Net Rock and Roll, Heavy Metal e todo tipo do mais verdadeiro metal',
       description:
-        'Website dedicado ao metal do Brasil e sobre o melhor estilo de música que existe.',
+        'metalbrasil.Net é um site colaborativo sobre Rock, Heavy Metal e todo tipo de metal. O conteúdo do Website é dedica para as pessoas que gostam de agitar o cabelo e balançar a cabeça com o bom e velho rock n roll.',
       image: 'https://www.metalbrasil.net/images/brasil-metal.png',
       url: 'https://www.metalbrasil.net'
     }
