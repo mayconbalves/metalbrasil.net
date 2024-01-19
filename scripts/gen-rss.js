@@ -26,7 +26,7 @@ async function generate() {
 
       feed.item({
         title: frontmatter.data.title,
-        url: `${siteUrl}/heavy-metal/` + name.replace(/\.mdx?/, ''),
+        url: `${siteUrl}/heavy-metal/` + name.replace(/\.md?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
         // categories: frontmatter.data.tag.split(', '),
@@ -44,7 +44,7 @@ async function generate() {
 
       feed.item({
         title: frontmatter.data.title,
-        url: `${siteUrl}/thrash-metal/` + name.replace(/\.mdx?/, ''),
+        url: `${siteUrl}/thrash-metal/` + name.replace(/\.md?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
         author: frontmatter.data.author
