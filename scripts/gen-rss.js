@@ -10,30 +10,11 @@ async function generate() {
     feed_url: 'https://www.metalbrasil.net/sitemap.xml'
   })
 
-  const heavyMetalPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'heavy-metal'))
   const thrashMetalPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'thrash-metal'))
   const reviewsPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'reviews'))
   const siteUrl = 'https://www.metalbrasil.net'
 
   await Promise.all(
-    heavyMetalPosts.map(async (name) => {
-      if (name.startsWith('index.')) return
-      const content = await fs.readFile(
-        path.join(__dirname, '..', 'public', 'posts', 'heavy-metal', name)
-      )
-
-      const frontmatter = matter(content)
-
-      feed.item({
-        title: frontmatter.data.title,
-        url: `${siteUrl}/heavy-metal/` + name.replace(/\.md?/, ''),
-        date: frontmatter.data.date,
-        description: frontmatter.data.description,
-        // categories: frontmatter.data.tag.split(', '),
-        author: frontmatter.data.author
-      })
-    }),
-
     thrashMetalPosts.map(async (name) => {
       if (name.startsWith('index.')) return
       const content = await fs.readFile(
