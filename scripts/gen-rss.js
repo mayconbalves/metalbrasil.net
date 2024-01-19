@@ -15,59 +15,61 @@ async function generate() {
   const reviewsPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'reviews'))
   const siteUrl = 'https://www.metalbrasil.net'
 
-  await Promise.all(
-    heavyMetalPosts.map(async (name) => {
-      if (name.startsWith('index.')) return
+  await Promise.all([
+    ...heavyMetalPosts.map(async (name) => {
+      if (name.startsWith('index.')) return;
+  
       const content = await fs.readFile(
         path.join(__dirname, '..', 'public', 'posts', 'heavy-metal', name)
-      )
-
-      const frontmatter = matter(content)
-
+      );
+  
+      const frontmatter = matter(content);
+  
       feed.item({
         title: frontmatter.data.title,
         url: `${siteUrl}/heavy-metal/` + name.replace(/\.md?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
-        // categories: frontmatter.data.tag.split(', '),
-        author: frontmatter.data.author
-      })
+        author: frontmatter.data.author,
+      });
     }),
-
-    thrashMetalPosts.map(async (name) => {
-      if (name.startsWith('index.')) return
+  
+    ...thrashMetalPosts.map(async (name) => {
+      if (name.startsWith('index.')) return;
+  
       const content = await fs.readFile(
         path.join(__dirname, '..', 'public', 'posts', 'thrash-metal', name)
-      )
-
-      const frontmatter = matter(content)
-
+      );
+  
+      const frontmatter = matter(content);
+  
       feed.item({
         title: frontmatter.data.title,
         url: `${siteUrl}/thrash-metal/` + name.replace(/\.md?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
-        author: frontmatter.data.author
-      })
+        author: frontmatter.data.author,
+      });
     }),
-
-    reviewsPosts.map(async (name) => {
-      if (name.startsWith('index.')) return
+  
+    ...reviewsPosts.map(async (name) => {
+      if (name.startsWith('index.')) return;
+  
       const content = await fs.readFile(
         path.join(__dirname, '..', 'public', 'posts', 'reviews', name)
-      )
-
-      const frontmatter = matter(content)
-
+      );
+  
+      const frontmatter = matter(content);
+  
       feed.item({
         title: frontmatter.data.title,
         url: `${siteUrl}/reviews/` + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
-        author: frontmatter.data.author
-      })
-    })
-  )
+        author: frontmatter.data.author,
+      });
+    }),
+  ]);
 
   await fs.writeFile('./public/sitemap.xml', feed.xml({ indent: true }))
 }
