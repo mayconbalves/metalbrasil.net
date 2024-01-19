@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
@@ -28,7 +27,6 @@ export default function App({ Component, pageProps }) {
       <ThemeProvider attribute="class">
         <GlobalStyle />
         <Component {...pageProps} />
-        <Analytics />
       </ThemeProvider>
       <AdBanner data-ad-slot="7434970023" data-full-width-responsive="true" />
     </>

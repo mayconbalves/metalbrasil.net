@@ -7,7 +7,7 @@ async function generate() {
   const feed = new RSS({
     title: 'Brasil Metal',
     site_url: 'https://www.metalbrasil.net',
-    feed_url: 'https://www.metalbrasil.net/feed.xml'
+    feed_url: 'https://www.metalbrasil.net/sitemap.xml'
   })
 
   const heavyMetalPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'heavy-metal'))
