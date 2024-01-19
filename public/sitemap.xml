@@ -4,18 +4,12 @@
         <description><![CDATA[Brasil Metal]]></description>
         <link>https://www.metalbrasil.net</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 19 Jan 2024 22:03:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jan 2024 22:18:02 GMT</lastBuildDate>
         <atom:link href="https://www.metalbrasil.net/sitemap.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Accept]]></title>
             <link>https://www.metalbrasil.net/heavy-metal/accept</link>
             <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/accept</guid>
-            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Iron Maiden]]></title>
-            <link>https://www.metalbrasil.net/heavy-metal/iron-maiden</link>
-            <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/iron-maiden</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
@@ -25,15 +19,21 @@
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Iron Maiden]]></title>
+            <link>https://www.metalbrasil.net/heavy-metal/iron-maiden</link>
+            <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/iron-maiden</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Deep Purple]]></title>
             <link>https://www.metalbrasil.net/heavy-metal/deep-purple</link>
             <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/deep-purple</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Led Zeppelin]]></title>
-            <link>https://www.metalbrasil.net/heavy-metal/led-zeppelin</link>
-            <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/led-zeppelin</guid>
+            <title><![CDATA[Judas Priest]]></title>
+            <link>https://www.metalbrasil.net/heavy-metal/judas-priest</link>
+            <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/judas-priest</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
@@ -55,16 +55,22 @@
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Black Label Society - doom crew inc]]></title>
-            <link>https://www.metalbrasil.net/reviews/black-label-society-doom-crew-inc</link>
-            <guid isPermaLink="true">https://www.metalbrasil.net/reviews/black-label-society-doom-crew-inc</guid>
-            <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Megadeth]]></title>
             <link>https://www.metalbrasil.net/thrash-metal/megadeth</link>
             <guid isPermaLink="true">https://www.metalbrasil.net/thrash-metal/megadeth</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Slayer]]></title>
+            <link>https://www.metalbrasil.net/thrash-metal/slayer</link>
+            <guid isPermaLink="true">https://www.metalbrasil.net/thrash-metal/slayer</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Black Label Society - doom crew inc]]></title>
+            <link>https://www.metalbrasil.net/reviews/black-label-society-doom-crew-inc</link>
+            <guid isPermaLink="true">https://www.metalbrasil.net/reviews/black-label-society-doom-crew-inc</guid>
+            <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Megadeth - rude awakening]]></title>
@@ -79,9 +85,9 @@
             <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Judas Priest]]></title>
-            <link>https://www.metalbrasil.net/heavy-metal/judas-priest</link>
-            <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/judas-priest</guid>
+            <title><![CDATA[Led Zeppelin]]></title>
+            <link>https://www.metalbrasil.net/heavy-metal/led-zeppelin</link>
+            <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/led-zeppelin</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>
