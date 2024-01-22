@@ -15,7 +15,7 @@ import path from 'path'
 
 export async function getStaticProps() {
   try {
-    const postTypes = ['heavy-metal', 'thrash-metal', 'curiosidades']
+    const postTypes = ['heavy-metal', 'thrash-metal', 'rock']
 
     const posts = postTypes.flatMap((postType) => {
       const files = glob.sync(`public/posts/${postType}/*.mdx`)
@@ -48,6 +48,7 @@ export async function getStaticProps() {
 }
 
 function HomePage({ posts }) {
+  console.log(posts, 'posts')
   return (
     <Container fluid>
       <Row>

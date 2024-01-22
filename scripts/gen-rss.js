@@ -13,6 +13,7 @@ async function generate() {
   const heavyMetalPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'heavy-metal'))
   const thrashMetalPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'thrash-metal'))
   const reviewsPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'reviews'))
+  const rockPosts = await fs.readdir(path.join(__dirname, '..', 'public', 'posts', 'rock'))
   const siteUrl = 'https://www.metalbrasil.net'
 
   await Promise.all([
@@ -27,7 +28,7 @@ async function generate() {
   
       feed.item({
         title: frontmatter.data.title,
-        url: `${siteUrl}/heavy-metal/` + name.replace(/\.md?/, ''),
+        url: `${siteUrl}/heavy-metal/` + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
         author: frontmatter.data.author,
@@ -45,7 +46,7 @@ async function generate() {
   
       feed.item({
         title: frontmatter.data.title,
-        url: `${siteUrl}/thrash-metal/` + name.replace(/\.md?/, ''),
+        url: `${siteUrl}/thrash-metal/` + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
         author: frontmatter.data.author,
@@ -64,6 +65,24 @@ async function generate() {
       feed.item({
         title: frontmatter.data.title,
         url: `${siteUrl}/reviews/` + name.replace(/\.mdx?/, ''),
+        date: frontmatter.data.date,
+        description: frontmatter.data.description,
+        author: frontmatter.data.author,
+      });
+    }),
+
+    ...rockPosts.map(async (name) => {
+      if (name.startsWith('index.')) return;
+  
+      const content = await fs.readFile(
+        path.join(__dirname, '..', 'public', 'posts', 'rock', name)
+      );
+  
+      const frontmatter = matter(content);
+  
+      feed.item({
+        title: frontmatter.data.title,
+        url: `${siteUrl}/rock/` + name.replace(/\.mdx?/, ''),
         date: frontmatter.data.date,
         description: frontmatter.data.description,
         author: frontmatter.data.author,

@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 
     const paths = files.map((fileName) => ({
       params: {
-        slug: fileName.replace('.md', '')
+        slug: fileName.replace('.mdx', '')
       }
     }))
 
@@ -31,7 +31,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params: { slug } }) {
   try {
     const fileName = fs.readFileSync(
-      `public/posts/heavy-metal/${slug}.md`,
+      `public/posts/heavy-metal/${slug}.mdx`,
       'utf-8'
     )
     const { data: frontmatter, content } = matter(fileName)

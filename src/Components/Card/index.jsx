@@ -12,11 +12,7 @@ const SmallCard = ({
   postType
 }) => {
   return (
-    <Link
-      href={postType ? `/${slug}` : `/${postType}/${slug}`}
-      legacyBehavior
-      key={slug}
-    >
+    <Link href={`/${postType}/${slug}`} legacyBehavior key={slug}>
       <Container>
         <CardImg src={bandImage} />
         <CardBody>
