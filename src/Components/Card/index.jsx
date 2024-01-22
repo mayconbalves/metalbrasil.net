@@ -8,10 +8,15 @@ const SmallCard = ({
   bandImage,
   subtitle,
   slug,
-  title
+  title,
+  postType
 }) => {
   return (
-    <Link href={`/heavy-metal/${slug}`} legacyBehavior key={slug}>
+    <Link
+      href={postType ? `/${slug}` : `/${postType}/${slug}`}
+      legacyBehavior
+      key={slug}
+    >
       <Container>
         <CardImg src={bandImage} />
         <CardBody>

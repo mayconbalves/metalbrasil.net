@@ -10,22 +10,29 @@ import Navbar from 'src/Components/Navbar'
 import ReviewSection from 'src/Sections/Review'
 import { GridCards } from '../styles/home'
 
+import glob from 'glob'
+import path from 'path'
+
 export async function getStaticProps() {
   try {
-    const files = fs.readdirSync('public/posts/heavy-metal')
+    const postTypes = ['heavy-metal', 'thrash-metal', 'curiosidades']
 
-    const posts = files.map((fileName) => {
-      const slug = fileName.replace('.md', '')
-      const readFile = fs.readFileSync(
-        `public/posts/heavy-metal/${fileName}`,
-        'utf-8'
-      )
-      const { data: frontmatter } = matter(readFile)
+    const posts = postTypes.flatMap((postType) => {
+      const files = glob.sync(`public/posts/${postType}/*.mdx`)
 
-      return {
-        slug,
-        frontmatter
-      }
+      return files.map((filePath) => {
+        const fileName = path.basename(filePath, '.mdx')
+        const slug = fileName.replace('.mdx', '')
+
+        const fileContent = fs.readFileSync(filePath, 'utf-8')
+        const { data: frontmatter } = matter(fileContent)
+
+        return {
+          slug,
+          frontmatter,
+          postType
+        }
+      })
     })
 
     return {
@@ -53,15 +60,16 @@ function HomePage({ posts }) {
       </Row>
 
       <GridCards>
-        {posts.map(({ slug, frontmatter }) => (
+        {posts.map(({ slug, frontmatter, postType }) => (
           <Card
             key={slug}
             author="Maycon B. Alves"
             avatarImage="https://cdn.pixabay.com/photo/2013/03/19/23/07/easter-bunny-95096_960_720.jpg"
             subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             title={frontmatter.title}
-            bandImage={`/${frontmatter.socialImage}`}
+            bandImage={`/${frontmatter.image}`}
             slug={slug}
+            postType={postType}
           />
         ))}
       </GridCards>
@@ -71,15 +79,16 @@ function HomePage({ posts }) {
       </Row>
 
       <GridCards>
-        {posts.map(({ slug, frontmatter }) => (
+        {posts.map(({ slug, frontmatter, postType }) => (
           <Card
             key={slug}
             author="Maycon B. Alves"
             avatarImage="https://cdn.pixabay.com/photo/2013/03/19/23/07/easter-bunny-95096_960_720.jpg"
             subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
             title={frontmatter.title}
-            bandImage={`/${frontmatter.socialImage}`}
+            bandImage={`/${frontmatter.image}`}
             slug={slug}
+            postType={postType}
           />
         ))}
       </GridCards>
