@@ -1,6 +1,7 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import md from 'markdown-it'
+import Footer from 'src/Components/Footer'
 import GridNews from 'src/Components/GridNews'
 import Navbar from 'src/Components/Navbar'
 
@@ -54,8 +55,14 @@ function Post({ frontmatter, content }) {
       <Navbar />
       <GridNews>
         <h1>{frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+        <img src={frontmatter.image} alt={frontmatter.title} />
+        <div
+          dangerouslySetInnerHTML={{
+            __html: md({ html: true }).render(content)
+          }}
+        />
       </GridNews>
+      <Footer />
     </>
   )
 }
