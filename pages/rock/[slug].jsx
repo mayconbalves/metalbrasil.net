@@ -7,7 +7,7 @@ import Navbar from 'src/Components/Navbar'
 
 export async function getStaticPaths() {
   try {
-    const files = fs.readdirSync('public/posts/thrash-metal')
+    const files = fs.readdirSync('public/posts/rock')
 
     const paths = files.map((fileName) => ({
       params: {
@@ -31,10 +31,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   try {
-    const fileName = fs.readFileSync(
-      `public/posts/thrash-metal/${slug}.mdx`,
-      'utf-8'
-    )
+    const fileName = fs.readFileSync(`public/posts/rock/${slug}.mdx`, 'utf-8')
     const { data: frontmatter, content } = matter(fileName)
 
     return {
