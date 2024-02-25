@@ -4,7 +4,7 @@
         <description><![CDATA[Brasil Metal]]></description>
         <link>https://www.metalbrasil.net</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 Jan 2024 20:04:07 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Feb 2024 16:12:59 GMT</lastBuildDate>
         <atom:link href="https://www.metalbrasil.net/sitemap.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Accept]]></title>
@@ -19,21 +19,27 @@
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Iron Maiden]]></title>
+            <link>https://www.metalbrasil.net/heavy-metal/iron-maiden</link>
+            <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/iron-maiden</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Deep Purple]]></title>
             <link>https://www.metalbrasil.net/heavy-metal/deep-purple</link>
             <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/deep-purple</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Led Zeppelin]]></title>
-            <link>https://www.metalbrasil.net/heavy-metal/led-zeppelin</link>
-            <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/led-zeppelin</guid>
-            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Judas Priest]]></title>
             <link>https://www.metalbrasil.net/heavy-metal/judas-priest</link>
             <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/judas-priest</guid>
+            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Led Zeppelin]]></title>
+            <link>https://www.metalbrasil.net/heavy-metal/led-zeppelin</link>
+            <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/led-zeppelin</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
@@ -49,9 +55,9 @@
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Iron Maiden]]></title>
-            <link>https://www.metalbrasil.net/heavy-metal/iron-maiden</link>
-            <guid isPermaLink="true">https://www.metalbrasil.net/heavy-metal/iron-maiden</guid>
+            <title><![CDATA[Kreator]]></title>
+            <link>https://www.metalbrasil.net/thrash-metal/kreator</link>
+            <guid isPermaLink="true">https://www.metalbrasil.net/thrash-metal/kreator</guid>
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
@@ -67,28 +73,16 @@
             <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Kreator]]></title>
-            <link>https://www.metalbrasil.net/thrash-metal/kreator</link>
-            <guid isPermaLink="true">https://www.metalbrasil.net/thrash-metal/kreator</guid>
-            <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Lamb of God - Ashes of the wake]]></title>
-            <link>https://www.metalbrasil.net/reviews/lamb-of-god-ashes-of-the-wake</link>
-            <guid isPermaLink="true">https://www.metalbrasil.net/reviews/lamb-of-god-ashes-of-the-wake</guid>
-            <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
+            <title><![CDATA[Black Label Society - doom crew inc]]></title>
+            <link>https://www.metalbrasil.net/reviews/black-label-society-doom-crew-inc</link>
+            <guid isPermaLink="true">https://www.metalbrasil.net/reviews/black-label-society-doom-crew-inc</guid>
+            <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[As 5 melhores músicas para seu bebê ouvir]]></title>
             <link>https://www.metalbrasil.net/rock/as-cinco-melhores-musicas-para-seu-bebe-ouvir</link>
             <guid isPermaLink="true">https://www.metalbrasil.net/rock/as-cinco-melhores-musicas-para-seu-bebe-ouvir</guid>
             <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Black Label Society - doom crew inc]]></title>
-            <link>https://www.metalbrasil.net/reviews/black-label-society-doom-crew-inc</link>
-            <guid isPermaLink="true">https://www.metalbrasil.net/reviews/black-label-society-doom-crew-inc</guid>
-            <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Mercyful Fate - melissa]]></title>
@@ -101,6 +95,12 @@
             <link>https://www.metalbrasil.net/reviews/megadeth-rude-awakening</link>
             <guid isPermaLink="true">https://www.metalbrasil.net/reviews/megadeth-rude-awakening</guid>
             <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Lamb of God - Ashes of the wake]]></title>
+            <link>https://www.metalbrasil.net/reviews/lamb-of-god-ashes-of-the-wake</link>
+            <guid isPermaLink="true">https://www.metalbrasil.net/reviews/lamb-of-god-ashes-of-the-wake</guid>
+            <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
