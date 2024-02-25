@@ -1,6 +1,7 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import md from 'markdown-it'
+import { NextSeo } from 'next-seo'
 import Footer from 'src/Components/Footer'
 import GridNews from 'src/Components/GridNews'
 import Navbar from 'src/Components/Navbar'
@@ -55,6 +56,7 @@ export async function getStaticProps({ params: { slug } }) {
 function Post({ frontmatter, content }) {
   return (
     <>
+      <NextSeo title={frontmatter.title} />
       <Navbar />
       <GridNews>
         <h1>{frontmatter.title}</h1>

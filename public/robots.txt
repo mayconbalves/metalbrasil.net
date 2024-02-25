@@ -1,3 +1,6 @@
 # robotstxt.org/
+User-Agent: *
+Allow: /
+Disallow: /private/
 
-User-agent: *
+Sitemap: https://www.metalbrasil.net/sitemap.xml
