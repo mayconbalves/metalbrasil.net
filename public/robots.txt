@@ -1,6 +1,14 @@
-# robotstxt.org/
-User-Agent: *
+User-agent: Googlebot
 Allow: /
-Disallow: /private/
 
-Sitemap: https://www.metalbrasil.net/sitemap.xml
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
